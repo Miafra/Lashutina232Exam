@@ -1,11 +1,10 @@
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class Task1 {
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList<>();
         Random random = new Random();
 
         for (int i = 0; i < 23; i++) {
